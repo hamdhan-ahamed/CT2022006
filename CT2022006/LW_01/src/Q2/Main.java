@@ -1,0 +1,20 @@
+package Q2;
+
+import javax.swing.*;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first name: ");
+        String first = sc.nextLine();
+
+        System.out.print("Enter last name: ");
+        String last = sc.nextLine();
+
+        JFrame frame = new JFrame(first + " " + last);
+        frame.setSize(400, 300);
+        frame.setVisible(true);
+    }
+}
